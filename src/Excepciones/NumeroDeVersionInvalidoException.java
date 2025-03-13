@@ -1,7 +1,7 @@
 package Excepciones;
 
-public class NumeroDeVersionInvalidoException extends RuntimeException {
+public class NumeroDeVersionInvalidoException extends Exception {
     public NumeroDeVersionInvalidoException(String message) {
-        super(message);
+        super("Numero de versión inválido");
     }
 }

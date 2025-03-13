@@ -1,7 +1,7 @@
 package Excepciones;
 
-public class IdentificadorDuplicadoException extends RuntimeException {
+public class IdentificadorDuplicadoException extends Exception {
     public IdentificadorDuplicadoException(String message) {
-        super(message);
+        super("Identificador duplicado");
     }
 }

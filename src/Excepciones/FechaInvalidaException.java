@@ -1,7 +1,7 @@
 package Excepciones;
 
-public class FechaInvalidaException extends RuntimeException {
+public class FechaInvalidaException extends Exception {
     public FechaInvalidaException(String message) {
-        super(message);
+        super("Fecha invalida");
     }
 }
